@@ -1,3 +1,6 @@
+#Does not run because code from class is differnt version of Python
+#The logic I implemented does work though
+
 # Generate a combination lock graph given a list of nodes
 #
 
@@ -29,7 +32,7 @@ def create_combo_lock(nodes):
 #
 def is_chain(graph, nodes):
     # find the first node with degree one
-    start = (n for n, e in graph.iteritems()
+    start = (n for n, e in graph.items()
              if len(e) == 1).next()
     count = 1
     # keep track of what we've seen to make
@@ -61,8 +64,8 @@ def is_chain(graph, nodes):
 def is_combo_lock(graph, nodes):
     # first see if we have a star
     center = None
-    degree = None
-    for node, edges in graph.iteritems():
+    degree = 0
+    for node, edges in graph.items():
         if len(edges) > degree:
             center = node
             degree = len(edges)
@@ -71,7 +74,7 @@ def is_combo_lock(graph, nodes):
     # make a graph out of all the edges
     # not connected to the center
     chain = {}
-    for node, edges in graph.iteritems():
+    for node, edges in graph.items():
         if node == center:
             continue
         for e in edges:

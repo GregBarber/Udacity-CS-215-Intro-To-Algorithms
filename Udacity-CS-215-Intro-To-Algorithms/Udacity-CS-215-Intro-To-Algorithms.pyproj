@@ -22,10 +22,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Lesson3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Problems2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Problems1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problems3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problems3Bridge.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Udacity_CS_215_Intro_To_Algorithms.py" />

@@ -13,7 +13,23 @@ testGraph = [(0, 1), (1, 5), (1, 7), (4, 5),
 find_eulerian_tour(testGraph)
 '''
 
-#from Problems2 # import test
-import Problems2
+'''
 #Problems 2 testing
+import Problems2
 Problems2.test()
+'''
+
+'''
+#Lesson 3 testing
+from Lesson3 import test
+test()
+'''
+'''
+#Problems 3 testing
+from Problems3 import *
+test_mark()
+test_centrality()
+'''
+
+from Problems3Bridge import test_bridge
+test_bridge()
