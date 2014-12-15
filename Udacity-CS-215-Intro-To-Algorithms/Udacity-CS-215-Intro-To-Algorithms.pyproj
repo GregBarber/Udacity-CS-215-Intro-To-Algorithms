@@ -37,6 +37,9 @@
     <Compile Include="Problems3Bridge.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Problems3BridgeInstructor.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Udacity_CS_215_Intro_To_Algorithms.py" />
   </ItemGroup>
   <PropertyGroup>
