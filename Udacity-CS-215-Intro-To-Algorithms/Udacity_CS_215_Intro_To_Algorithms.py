@@ -43,8 +43,16 @@ test_bridge()
 #partition([23, 3, 234, 4522, 4, 948, 5], 234)
 #test_heap()
 
-from Problems4 import *
+#from Problems4 import *
 #test_min_absolute()
 #test_mode()
 #test_upheap()
-test_actor()
+#test_actor()
+
+#from Lesson5Comics import *
+#test_comic_me()
+
+#from Problems5Dijkstra import *
+#test_Dijkstra()
+from Problems5Comic import *
+test_comic_weighted()

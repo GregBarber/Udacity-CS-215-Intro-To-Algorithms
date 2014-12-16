@@ -28,6 +28,12 @@
     <Compile Include="Lesson4.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Lesson5Comics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problems5Comic.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Problems2.py">
       <SubType>Code</SubType>
     </Compile>
@@ -46,10 +52,14 @@
     <Compile Include="Problems4.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Problems5Dijkstra.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Udacity_CS_215_Intro_To_Algorithms.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="file" />
+    <Content Include="fileComicLesson5" />
     <Content Include="yob1995.txt" />
   </ItemGroup>
   <PropertyGroup>
