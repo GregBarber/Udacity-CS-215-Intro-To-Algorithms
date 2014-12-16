@@ -36,9 +36,15 @@ from Problems3Bridge import test_bridge
 test_bridge()
 '''
 
-from Lesson4 import *
+#from Lesson4 import *
 #animal()
 #test_max()
 #names()
 #partition([23, 3, 234, 4522, 4, 948, 5], 234)
-test_heap()
+#test_heap()
+
+from Problems4 import *
+#test_min_absolute()
+#test_mode()
+#test_upheap()
+test_actor()

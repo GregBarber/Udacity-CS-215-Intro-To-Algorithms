@@ -43,9 +43,13 @@
     <Compile Include="Problems3BridgeInstructor.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Problems4.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Udacity_CS_215_Intro_To_Algorithms.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="file" />
     <Content Include="yob1995.txt" />
   </ItemGroup>
   <PropertyGroup>
