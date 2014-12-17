@@ -52,7 +52,7 @@ test_bridge()
 #from Lesson5Comics import *
 #test_comic_me()
 
-#from Problems5Dijkstra import *
+from Problems5Dijkstra import *
 #test_Dijkstra()
 from Problems5Comic import *
 test_comic_weighted()
